@@ -37,6 +37,8 @@ const mobileNavigation = document.getElementById('mobile_navigation');
 const hamburgerButton = document.querySelector('#mobile_nav_btn g');
 const exButton = document.querySelector("#mobile_close_btn g")
 
+closeButton.style.display = "none";
+
 //add hover effect to icons
 navButton.onmouseenter = function () {
     hamburgerButton.classList.add("green_icon");
