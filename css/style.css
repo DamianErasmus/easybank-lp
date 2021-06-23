@@ -164,6 +164,7 @@ header #mobile_close_btn:hover {
     background-repeat: no-repeat;
     background-size: 1400px 850px;
     background-position: 620px -200px;
+    overflow-x: hidden;
 }
 
 .hero .container {
